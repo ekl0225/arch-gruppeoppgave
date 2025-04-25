@@ -18,6 +18,10 @@
 html {
   scroll-behavior: smooth;
 }
+body {
+  background-color: var(--preset-color-yellow);
+}
+
 /* -------------hero------------ */
 .hero {
   background-image: url(/images/arch.png);
@@ -48,21 +52,89 @@ html {
   align-items: center;
   width: 35rem;
   color: var(--preset-color-yellow);
+  font-family: var(--font-family-old-standard-TT);
 }
 /* ----------vay-cays-------- */
 .summer-vaycay {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  padding: 5rem 10rem 0 17rem;
+  row-gap: 2rem;
+  margin-bottom: 5rem;
+  background-color: var(--preset-color-yellow);
+}
+
+.image {
+  color: var(--preset-color-yellow);
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 100%;
+  padding: 2rem;
+  font-family: var(--font-family-old-standard-TT);
+  font-style: italic;
+  font-weight: 300;
+}
+.rating {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background-color: var(--preset-color-light-blue);
+  border-radius: 1rem;
+  padding: 0.3rem 0.5rem;
+  margin: 1rem;
+  font-family: var(--font-family-quicksand);
+  font-weight: 600;
+}
+.pin {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.image h2 {
+  font-weight: 400;
 }
 .barbados {
   background-image: url(images/barbados.png);
   width: 300px;
   height: 400px;
+  position: relative;
 }
-.image {
-  color: var(--preset-color-yellow);
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
-  height: 100%;
+.belize {
+  background-image: url(images/belize.png);
+  width: 300px;
+  height: 400px;
+  position: relative;
+}
+.greece {
+  background-image: url(images/greece.png);
+  width: 300px;
+  height: 400px;
+  position: relative;
+}
+.madagascar {
+  background-image: url(images/madagascar.png);
+  width: 300px;
+  height: 400px;
+  position: relative;
+}
+.sa-pa {
+  background-image: url(images/sa-pa.png);
+  width: 300px;
+  height: 400px;
+  position: relative;
+}
+.sardinia {
+  background-image: url(images/sardinia.png);
+  width: 300px;
+  height: 400px;
+  position: relative;
 }
