@@ -10,6 +10,7 @@
   --preset-color-light-blue: #caf4ff;
   --preset-color-yellow: #fffbe1;
   --preset-color-black: #003a57;
+  --preset-color-white: #f7f6f3;
 
   --font-family-old-standard-TT: "Old Standard TT", serif;
   --font-family-quicksand: "Quicksand", sans-serif;
@@ -61,11 +62,11 @@ body {
   flex-direction: column;
   align-items: flex-start;
   flex-shrink: 0;
-  background: #ffffff;
+  background: var(--preset-color-white);
   box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.25);
   margin-top: -4rem;
   width: 600px;
-  margin: -2rem auto 0 auto;
+  margin: -2rem auto 2rem auto;
 }
 .travel-bar-1 {
   display: flex;
@@ -74,7 +75,6 @@ body {
   gap: 10px;
 }
 .btn-travel-bar-1 {
-  
 }
 .travel-bar-2 {
   display: flex;
@@ -85,28 +85,26 @@ body {
 .btn-travel-bar-2 * {
   list-style: none;
   text-decoration: none;
-  color: #000;
+  color: var(--preset-color-black);
   font-family: "Old Standard TT";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  
 }
 .btn-travel-bar-1 * {
   list-style: none;
   text-decoration: none;
-  color: #000;
+  color: var(--preset-color-black);
   font-family: "Old Standard TT";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  
 }
 .btn-travel-bar-2 {
   border-radius: 3px;
-  background: #FFF;
+  background: var(--preset-color-white);
   border: 0.7px solid rgba(101, 101, 101, 0.15);
   display: inline-flex;
   padding: 5px;
@@ -116,7 +114,7 @@ body {
 }
 .btn-travel-bar-1 {
   border-radius: 3px;
-  background: #FFF;
+  background: var(--preset-color-white);
   border: 0.7px solid rgba(101, 101, 101, 0.15);
   display: inline-flex;
   padding: 5px;
