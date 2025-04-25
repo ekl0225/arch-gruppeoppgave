@@ -54,6 +54,76 @@ body {
   color: var(--preset-color-yellow);
   font-family: var(--font-family-old-standard-TT);
 }
+.travel-bar {
+  display: flex;
+  height: 121px;
+  padding: 0px 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background: #ffffff;
+  box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.25);
+  margin-top: -4rem;
+  width: 600px;
+  margin: -2rem auto 0 auto;
+}
+.travel-bar-1 {
+  display: flex;
+  padding: 10px 186px 10px 0px;
+  align-items: center;
+  gap: 10px;
+}
+.btn-travel-bar-1 {
+  
+}
+.travel-bar-2 {
+  display: flex;
+  padding: 10px 0px;
+  align-items: center;
+  gap: 21px;
+}
+.btn-travel-bar-2 * {
+  list-style: none;
+  text-decoration: none;
+  color: #000;
+  font-family: "Old Standard TT";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  
+}
+.btn-travel-bar-1 * {
+  list-style: none;
+  text-decoration: none;
+  color: #000;
+  font-family: "Old Standard TT";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  
+}
+.btn-travel-bar-2 {
+  border-radius: 3px;
+  background: #FFF;
+  border: 0.7px solid rgba(101, 101, 101, 0.15);
+  display: inline-flex;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+.btn-travel-bar-1 {
+  border-radius: 3px;
+  background: #FFF;
+  border: 0.7px solid rgba(101, 101, 101, 0.15);
+  display: inline-flex;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
 /* ----------vay-cays-------- */
 .summer-vaycay {
   height: 100%;
